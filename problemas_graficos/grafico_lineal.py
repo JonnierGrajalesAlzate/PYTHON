@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 df = pd.read_csv("problemas_graficos\\pedos.csv")
-#creando un grafico 
+#creando un grafico de lineas
 sns.lineplot(x="fecha", y="pedos",data = df)
 
 #creando un punto mas alto del grafico
